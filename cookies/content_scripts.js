@@ -18,12 +18,10 @@ chrome.runtime.sendMessage({
   console.log(response);
 });
 
-setTimeout(function(){
-  chrome.runtime.sendMessage({
-    action: SET_COOKIES,
-    args: ''
-  }, (response) => {   
-    // 处理
-    console.log(response);
-  });
-}, 2000)
+chrome.runtime.sendMessage({
+  action: SET_COOKIES,
+  args: ''
+}, (response) => {   
+  // 处理
+  console.log(response);
+});
