@@ -10,3 +10,10 @@
 * [dynamic_content_scripts](./dynamic_content_scripts): 动态注入页面脚本
 * [cookies](./cookies): 操作 Cookie
 * [nativemessage](./nativemessage): 跨应用进程通信
+* [downloads](./downloads): 下载
+* [storage](./storage): 存储数据
+* [override](./override): 定制页面和设置
+
+# Chrome App Demos
+
+* [filesystem](./filesystem): 读写文件
