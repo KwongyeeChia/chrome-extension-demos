@@ -13,6 +13,7 @@
 * [downloads](./downloads): 下载
 * [storage](./storage): 存储数据
 * [override](./override): 定制页面和设置
+* [contextMenus](./contextMenus): 定制
 
 # Chrome App Demos
 
